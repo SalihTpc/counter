@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#result {
+  font-size: 4rem;
+  width: min-content;
+  height: min-content;
+  color: brown;
+  margin: 3rem 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+}
+button {
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  color: brown;
+  background-color: cornflowerblue;
+  font-weight: 600;
+  box-shadow: 4px 2px gray;
+}
+button:hover {
+  outline: 2px solid yellow;
+  outline-offset: -8px;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  color: cornflowerblue;
+  background-color: brown;
+}
